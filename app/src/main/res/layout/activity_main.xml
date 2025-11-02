@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- התמונה -->
+    <ImageView
+        android:id="@+id/myImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/img_2"
+        android:layout_centerInParent="true" />
+
+    <!-- כפתור הצגה/הסתרה -->
+    <Button
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="הסתר / הצג"
+        android:layout_below="@id/myImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <!-- כפתור הורדת בהירות -->
+    <Button
+        android:id="@+id/darkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="פחות בהירות"
+        android:layout_below="@id/toggleButton"
+        android:layout_marginTop="20dp"
+        android:layout_toStartOf="@id/toggleButton" />
+
+    <!-- כפתור העלאת בהירות -->
+    <Button
+        android:id="@+id/brightButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="יותר בהירות"
+        android:layout_below="@id/toggleButton"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/toggleButton" />
+    <Button
+        android:id="@+id/openSecondButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="עבור לדף שני"
+        android:layout_below="@id/brightButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+</RelativeLayout>
