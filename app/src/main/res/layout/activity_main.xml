@@ -10,7 +10,7 @@
         android:id="@+id/myImage"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/img_2"
+        android:src="@drawable/img_3"
         android:layout_centerInParent="true" />
 
     <!-- כפתור הצגה/הסתרה -->
@@ -42,14 +42,27 @@
         android:layout_below="@id/toggleButton"
         android:layout_marginTop="20dp"
         android:layout_toEndOf="@id/toggleButton" />
-    <Button
-        android:id="@+id/openSecondButton"
+
+
+    <Switch
+        android:id="@+id/switch2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="111עבור לדף שני"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="הסתר תמונה"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
         android:layout_below="@id/brightButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="30dp"
+        android:max="100"
+        android:progress="100"
+        android:contentDescription="שליטה בשקיפות התמונה" />
 
 
 </RelativeLayout>
