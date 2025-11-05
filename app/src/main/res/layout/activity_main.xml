@@ -46,7 +46,7 @@
         android:id="@+id/openSecondButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="עבור לדף שני"
+        android:text="111עבור לדף שני"
         android:layout_below="@id/brightButton"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"/>

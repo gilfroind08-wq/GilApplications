@@ -67,12 +67,6 @@ public class MainActivity extends AppCompatActivity {
         brightness = Math.max(0f, brightness - 0.2f);
         myImage.setAlpha(brightness);
     }
-    openSecondButton.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            Intent intent = new Intent(MainActivity.this, SecondActivity.class);
-            startActivity(intent);
-        }
-    });
+
 
 }
