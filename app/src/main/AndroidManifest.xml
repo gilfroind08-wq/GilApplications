@@ -12,18 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GfApplication"
         tools:targetApi="31">
+
+        <!-- זה יהיה המסך שנפתח ראשון -->
         <activity
             android:name=".MainActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+        <!-- זה מסך רגיל, לא נפתח ראשון -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
