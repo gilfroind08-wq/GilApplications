@@ -10,7 +10,7 @@
         android:id="@+id/myImage"
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="@drawable/img_3"
+        android:src="@drawable/img3"
         android:layout_centerInParent="true" />
 
     <!-- כפתור הצגה/הסתרה -->
